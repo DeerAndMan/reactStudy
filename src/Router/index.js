@@ -12,7 +12,7 @@ import {
 import About from '../views/About'
 import Home from '../views/Home'
 
-function App() {
+export default function Routers() {
     return (
         <Router>
             <ul>

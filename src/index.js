@@ -11,7 +11,7 @@ import Clock, {Toggle} from './Clock';
 
 import reportWebVitals from './reportWebVitals';
 
-/* 路由 */
+// /* 路由 */
 // import { BrowserRouter } from "react-router-dom";
 // console.log('BrowserRouter>>>', BrowserRouter);
 

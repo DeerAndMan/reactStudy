@@ -1,13 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
 
+import Routers from './Router'
+
+console.log('Router', Routers)
+
 // 路由
 // import {
 //   BrowserRouter as Router,
 //   Switch,
 //   Route,
 //   Link
-// } from 'react-dom'
+// } from 'react-router-dom'
+// import { HashRouter } from 'react-router-dom'
+
 
 /**
  * 自定义元素，组件
@@ -29,10 +35,21 @@ function App() {
           <Welcome name='自定义组件' />
         </details>
         {/* 导航 */}
-        {/* <ul>
-          <li><Link to='/home'>Home</Link></li>
-          <li><Link to='/About'>About</Link></li>
-        </ul> */}
+        {/* 
+          <HashRouter>
+            123
+          </HashRouter>
+        */}
+        
+          {/* 
+            <Router>
+          <ul>
+            <li><Link to='/home'>Home</Link></li>
+            <li><Link to='/about'>About</Link></li>
+          </ul>
+        </Router> */}
+          {/* <Route path='/home' component={}>Home</Route> */}
+          <Routers />
 
       </header>
     </div>
